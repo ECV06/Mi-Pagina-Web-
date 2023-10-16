@@ -1,0 +1,58 @@
+header{
+    background-image: url(./Fotos/head2.jpg);
+    padding: 20px;
+}
+body{
+    background-color: rgb(241, 225, 154);
+}
+.menu{
+    display: flex;
+    justify-content: right;
+}
+.menu a {
+    margin-right: 30px;
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: rgb(28, 255, 100);
+}
+h1{
+    color:rgb(253, 251, 253);
+    display: flex;
+    justify-content: center;
+    font-style:italic;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 100px;
+    padding: 35px;
+   /* grid-row: 100px;*/
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}

@@ -1,0 +1,38 @@
+h1{
+    color:rgb(223, 238, 9);
+    display: flex;
+    justify-content: center;
+    font-style:italic;
+    font-size: xx-large;
+    padding: 15px;
+}
+body{
+    background-image: url(./Fotos/body.jpg);
+}
+.menu{
+    display: flex;
+    justify-content: right;
+}
+.menu a {
+    margin-right: 30px;
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: rgb(28, 255, 100);
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    color: white;
+    font-style: bold;/*estilo de la letra*/
+    font-size: large;/*tamaño de la letra*/
+}
+ol{
+    color: white;
+    font-style: bold;/*estilo de la letra*/
+    font-size: large;/*tamaño de la letra*/
+}
